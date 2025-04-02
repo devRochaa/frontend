@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Woolly"/>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Teste Woolly Front-end Jr.</title>
+    
+    <link rel="icon" type="image/png" href="">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+  
+<body>
+    <div class="preloader">
+        <span class="spinner"></span>
+    </div>
+
+    <header class="hero">
+        <div class="hero__content">
+            <div class="hero__banner">
+                <img class="logo" src="/assets/images/logo.png" alt="Logoipsum Academy">
+                <div class="hero__text">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    <h1>*Lorem ipsum dolor sit amet, consectetur.</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="info-section">
+                <div class="lateral-img"></div>
+                <div class="info-section__text"> 
+                    <h1>Cras ipsum <span style="font-weight: bold">dolor sit</span> amet consectetur adipisicing elit. Atque sint fuga et exercitationem.
+                         Voluptate excepturi, <span style="font-weight: bold">placeat, reiciendis</span> rerum tempora nam fugiat magnam totam minima maiores 
+                         consectetur accusantium, corrupti tempore velit explicabo.</h1>
+                </div>
+        </section>
+
+        <section class="video-section">
+            <div class="video-section__text">
+                <h1>Lorem, ipsum dolor sit amet consectetur<br>adipisicing elit. Aperiam, enim?</h1>
+                <h2>Suspendise ipsum dolor sit.</h2>
+                <div class="numero">
+                    <img class="phone" src="/assets/images/phone.svg" alt="telefone"><h3><span class="ddd">11 </span>99999-0000</h3>
+                </div>
+            </div>
+
+            <div class="video-section__video">
+                <iframe class="" src="https://www.youtube.com/embed/uziv1chzSvI?si=mfALK98hI1sWJr5C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <button onclick="document.getElementById('contato')
+                            .scrollIntoView({ behavior: 'smooth' })" 
+                            class="video_section__button">
+                <img class="seta" src="/assets/images/arrow.png" alt="seta">
+                Fale Conosco
+            </button>
+        </section>
+
+        <section class="bar-alert">
+            <img class="warn" src="/assets/images/warn.svg" alt="aviso">
+            <div class="bar-alert__text">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quia magnam. Voluptatum sapiente ex officiis similique quae magnam quos commodi consequatur perferendis!</p>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <div class="form-section__content">
+                <div class="form-section-left">
+                    <div class="form-section-left__text">
+                        <p class="title">
+                            Phasellus viverra mi et enim <span style="font-weight: 600;">gravida</span> mattis turpis
+                        </p>
+                        <p class="subtitle">
+                            suspendisse auctor massa lacus.
+                        </p>
+                    </div>
+                    <img class="notebook" src="/assets/images/notebook.png" alt="notebook">
+                </div>
+                <div class="form-section-right" id="contato">
+                    <div class="form-section-right__content">
+                        <form class="form-business">
+                            <label for="nome">NOME COMPLETO*</label>
+                            <input type="text" name="nome" required>
+
+                            <label for="nome">CNPJ*</label>
+                            <input type="text" name="nome" class="ipt-cnpj" required>
+
+                            <label for="nome">E-MAIL*</label>
+                            <input type="text" name="nome" required>
+
+                            <label for="nome">TELEFONE*</label>
+                            <input type="text" name="nome" class="ipt-phone" required>
+
+                            <label for="nome">EMPRESA*</label>
+                            <input type="text" name="nome" required>
+                        
+                            <button type="submit">
+                                <img class="seta" src="/assets/images/yellow-arrow.png" alt="seta">
+                                Entre em contato
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>@2025 - Teste Woolly</p>
+    </footer>
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+  
+</body>
+</html>
