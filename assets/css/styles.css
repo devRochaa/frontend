@@ -124,7 +124,7 @@ body{
 
 .info-section .lateral-img{
     background-color: var(--light-blue-c);
-    background-image: url(/assets/images/lateral.png);
+    background-image: url(assets/images/lateral.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 28vw;
